@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL ="https://chatsphere-backend-z3j9.onrender.com/api";
+const BASE_URL ="https://chatsphere-backend-z3j9.onrender.com/api/auth";
 
 export const axiosInstance = axios.create({
   baseURL: BASE_URL,
